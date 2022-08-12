@@ -273,6 +273,9 @@
             example_elm = mkKernel k.elm {
               displayName = "Example Elm Kernel";
             };
+            example_typescript = mkKernel k.typescript {
+              displayName = "Example Typescript Kernel";
+            };
           };
         };
       in rec {
